@@ -1,0 +1,298 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+#hero {
+  height: 600px;
+  background-image: url("./assets/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#hero > #nav {
+  max-width: 1000px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: yellow; */
+  margin: 0 auto;
+}
+
+#hero > #nav > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+}
+
+#hero > #nav > nav > h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#hero > #nav > nav > div > a {
+  all: unset;
+  padding: 10px;
+  font-weight: bold;
+}
+
+button#login {
+  color: white;
+  font-weight: bold;
+}
+
+button#register {
+  color: white;
+  font-weight: bold;
+  background-color: #23a6f0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+
+#hero > .text {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+
+#hero > .text > h1 {
+  font-size: 58px;
+  font-weight: bold;
+  margin-top: 100px;
+  width: 60%;
+}
+
+#hero > .text > p {
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+button#quote {
+  color: white;
+  font-size: 14px;
+  background-color: #23a6f0;
+  border-radius: 37px;
+  padding: 10px 20px;
+}
+
+button#learn {
+  color: #23a6f0;
+  font-size: 14px;
+  border-color: #23a6f0;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 37px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+#section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#section2 > div {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+#section2 > div > .text2 {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin: 25px auto;
+  gap: 20px;
+}
+
+#section2 > div > .text2 > h1 {
+  font-size: 40px;
+  font-weight: bold;
+  width: 60%;
+}
+
+#section2 > div > .text2 > p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.card-container {
+  max-width: 1000px;
+  max-height: 258px;
+  margin: 25px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: space-evenly;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+}
+
+.card-container > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  margin: 0px 30px;
+}
+.card-container > div > div > img {
+  object-fit: none;
+  width: 72px;
+  height: 72px;
+  background-color: #23a6f0;
+  border-radius: 200px;
+}
+
+.card-container > div > div > h6 {
+  margin-left: 10px;
+  width: 88px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#section3 {
+  max-width: 1000px;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+#section3 > .title > h1 {
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#section3 > .title > h2 {
+  font-size: 17px;
+  width: 649px;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #737373;
+}
+.testimonial-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 100px;
+  gap: 15px;
+}
+
+.testimonial-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  padding: 10px;
+}
+
+.testimonial-container > div > h6 {
+  color: #737373;
+  text-align: left;
+}
+
+.testimonial-container > div > p {
+  font-size: 16px;
+}
+
+#section4 {
+  background-color: #252b42;
+}
+
+.last {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.last > div > h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.last > div > p {
+  color: white;
+  font-size: 14px;
+  width: 442px;
+}
+
+.last > div > input {
+  background-color: #ffffff;
+  font-size: 14px;
+  color: #737373;
+  height: 58px;
+  width: 333px;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.last > div > button {
+  background-color: #23a6f0;
+  font-size: 14px;
+  color: white;
+  height: 58px;
+  width: 117px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.last > div > h6 {
+  color: #737373;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.footer > div > h6 {
+  font-size: 14px;
+}
